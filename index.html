@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пінг-Понг Шоп - посилання</title>
+    <style>
+        /* Кольори: синій стіл #1d6fb8, червона ракетка #d62828, помаранчевий м'яч #ff9f1c */
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #222222;
+            background: linear-gradient(135deg, #0f3d66, #1d6fb8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Картка по центру екрана */
+        .card {
+            width: 100%;
+            max-width: 26rem;
+            margin: 2rem 1rem;
+            padding: 2rem 1.5rem;
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        /* Логотип */
+        .logo {
+            width: 6rem;
+            height: 6rem;
+            margin: 0 auto;
+            border-radius: 50%;
+            background-color: #d62828;
+            color: #ffffff;
+            font-size: 3rem;
+            line-height: 6rem;
+        }
+
+        h1 {
+            margin: 0.7rem 0 0.2rem;
+            font-size: 1.5rem;
+            color: #0f3d66;
+        }
+
+        .subtitle {
+            margin: 0;
+            color: #666666;
+            font-size: 0.9rem;
+        }
+
+        .cta {
+            margin: 1.5rem 0;
+        }
+
+        /* Головна кнопка "Підписатися на канал" */
+        .subscribe {
+            display: block;
+            padding: 1rem;
+            border-radius: 2rem;
+            background: linear-gradient(to right, #d62828, #ff9f1c);
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            animation: pulse 2s infinite;
+            transition: transform 0.3s;
+        }
+
+        .subscribe:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(214, 40, 40, 0.6); }
+            100% { box-shadow: 0 0 0 0.8rem rgba(214, 40, 40, 0); }
+        }
+
+        /* Посилання на соцмережі */
+        .links h2 {
+            font-size: 1rem;
+            color: #1d6fb8;
+        }
+
+        .links a {
+            display: block;
+            margin-bottom: 0.7rem;
+            padding: 0.8rem;
+            border: 2px solid #0f3d66;
+            border-radius: 2rem;
+            color: #0f3d66;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .links a:hover {
+            background-color: #0f3d66;
+            color: #ffffff;
+        }
+
+        footer {
+            margin-top: 1.5rem;
+            font-size: 0.8rem;
+            color: #888888;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="card">
+
+        <!-- Шапка з логотипом і назвою -->
+        <header>
+            <div class="logo">&#127955;</div>
+            <h1>Пінг-Понг Шоп</h1>
+            <p class="subtitle">Інвентар для настільного тенісу: ракетки, м'ячі, столи</p>
+        </header>
+
+        <!-- Заклик до підписки -->
+        <div class="cta">
+            <p>Підписуйтесь на наш закритий Telegram-канал: там знижки, новинки і спеціальні пропозиції тільки для підписників.</p>
+            <a class="subscribe" href="https://t.me/+emZm4Jvj85s1YmEy">Підписатися на канал</a>
+        </div>
+
+        <!-- Соціальні мережі та ресурси -->
+        <section class="links">
+            <h2>Соціальні мережі та ресурси</h2>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.youtube.com/">YouTube</a>
+            <a href="https://www.tiktok.com/">TikTok</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Пінг-Понг Шоп. Шевченко Данило, ФІТ 3-2з</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
