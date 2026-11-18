@@ -80,6 +80,42 @@
             100% { box-shadow: 0 0 0 0.8rem rgba(214, 40, 40, 0); }
         }
 
+        /* Товар з кнопкою оплати через WayForPay */
+        .product {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            border: 2px dashed #1d6fb8;
+            border-radius: 1rem;
+        }
+
+        .product h2 {
+            margin: 0 0 0.3rem;
+            font-size: 1.1rem;
+            color: #0f3d66;
+        }
+
+        .price {
+            margin: 0 0 0.8rem;
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #d62828;
+        }
+
+        .buy {
+            display: block;
+            padding: 0.8rem;
+            border-radius: 2rem;
+            background-color: #1d6fb8;
+            color: #ffffff;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .buy:hover {
+            background-color: #0f3d66;
+        }
+
         /* Посилання на соцмережі */
         .links h2 {
             font-size: 1rem;
@@ -126,6 +162,13 @@
             <p>Підписуйтесь на наш закритий Telegram-канал: там знижки, новинки і спеціальні пропозиції тільки для підписників.</p>
             <a class="subscribe" href="https://t.me/+emZm4Jvj85s1YmEy">Підписатися на канал</a>
         </div>
+
+        <!-- Товар: кнопка оплати веде на сторінку оплати WayForPay -->
+        <section class="product">
+            <h2>Ракетка для настільного тенісу</h2>
+            <p class="price">500 грн</p>
+            <a class="buy" href="https://secure.wayforpay.com/button/bf8ecb9872345">Купити ракетку</a>
+        </section>
 
         <!-- Соціальні мережі та ресурси -->
         <section class="links">
